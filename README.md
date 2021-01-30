@@ -1,5 +1,7 @@
 ### ☠ TCC HTML e CSS
 
+## Layout está [aqui neste Figma](https://www.figma.com/file/IvRyMgaJCedXHD9f2xhbfz/Crescer-2020-02?node-id=1812%3A324)
+
 # Regras
 - Individual
 - Responsivo
@@ -27,10 +29,6 @@ Usem cada uma conforme a necessidade.
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 ```
-
-## Layout
-
-[Aqui nesse Figma](https://www.figma.com/file/IvRyMgaJCedXHD9f2xhbfz/Crescer-2020-02?node-id=1812%3A324)
 
 ## Estrutura de diretórios ideal
 ```
