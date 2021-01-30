@@ -1,5 +1,7 @@
 ### ☠ TCC HTML e CSS
 
+*Chegou o momento de misturar tudo que a gente viu até agora em um exercício, o nosso TCC.*
+
 ## Layout está [aqui neste Figma](https://www.figma.com/file/IvRyMgaJCedXHD9f2xhbfz/Crescer-2020-02?node-id=1812%3A324)
 
 # Regras
@@ -7,6 +9,8 @@
 - Responsivo
 - Mais fiel ao layout possível
 - Organizado estruturalmente (arquivos, pastas, etc) 
+- As páginas devem estar linkadas entre elas
+- Não deve haver duplicação de código. Ex.: Criar o css do botão duas vezes quando você pode criar uma classe e reaproveitar
 
 ## Dicas
 - Usem `min-height: 100vh` e `margin: 0` no body
@@ -15,6 +19,7 @@
 - Ícones e logo, exportem em .svg
 - Usem transition nos cards das pessoas
 - Voltem as aulas, vários componentes do TCC já foram explicados em aula
+- Importante, se você usar `!important` eu vou ter certeza que você não prestou atenção na aula de especificidade
 - ⚠Façam commits e pushes regularmente ⚠
 
 
