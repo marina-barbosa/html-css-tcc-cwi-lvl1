@@ -8,7 +8,7 @@
 - Individual
 - Responsivo
 - Mais fiel ao layout possível
-- Organizado estruturalmente (arquivos, pastas, etc) 
+- Organizado estruturalmente (arquivos, pastas, etc)
 - As páginas devem estar linkadas entre elas
 - Não deve haver duplicação de código. Ex.: Criar o css do botão duas vezes quando você pode criar uma classe e reaproveitar
 
@@ -34,6 +34,18 @@ Usem cada uma conforme a necessidade.
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 ```
+
+
+🚧 Não apague o conteúdo da pasta `prints`.
+
+🚧 Para cada página você deve salvar o arquivo html como index.html, dentro de seu respectivo diretório. Exemplo:
+
+Home: `/index.html`
+
+Sobre: `/sobre/index.html`
+
+Contato: `/contato/index.html`
+
 
 ## Estrutura de diretórios ideal
 ```
@@ -64,5 +76,5 @@ font-family: 'Open Sans', sans-serif;
             logo.svg
             another-img.png
 
-    
+
 ```
