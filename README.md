@@ -2,7 +2,7 @@
 
 *Chegou o momento de misturar tudo que a gente viu até agora em um exercício, o nosso TCC.*
 
-## Layout está [aqui neste Figma](https://www.figma.com/file/IvRyMgaJCedXHD9f2xhbfz/Crescer-2020-02?node-id=1812%3A324)
+## Layout está [aqui neste Figma](https://www.figma.com/design/tMcQJrlA9vDEzaLCbCplOC/Crescer-TCC-HTML%2FCSS?node-id=1812-324&t=wdtrbAPwMKrHL0Gl-0)
 
 # Regras
 - Individual
