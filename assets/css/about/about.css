@@ -2,3 +2,60 @@
     background: linear-gradient(var(--color-hover-overlay), var(--color-hover-overlay)),
                 url('../../img/banner3.png') no-repeat center center / cover;
 }
+
+/* SECTION MVV */
+
+.mvv-section {
+  min-height: 425px;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-background-secondary);
+}
+
+.mvv-section .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.mvv-item {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mvv-item>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.mvv-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.mvv-item h2 {
+  color: var(--color-text-title-secondary);
+  margin: 0;
+}
+
+.mvv-item p {
+  max-width: 330px;
+}
+
+@media (max-width: 1020px) {
+  .mvv-section .container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .mvv-section {
+    padding-block: 3rem;
+  }
+}
