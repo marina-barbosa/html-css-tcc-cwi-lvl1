@@ -9,3 +9,13 @@ body {
     font-size: var(--font-size-base);
     color: var(--color-text-dark);
 }
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}

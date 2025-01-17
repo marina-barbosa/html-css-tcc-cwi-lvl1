@@ -2,3 +2,127 @@
     background: linear-gradient(var(--color-hover-overlay), var(--color-hover-overlay)),
                 url('../../img/banner4.png') no-repeat center center / cover;
 }
+
+.grid {
+  display: grid;
+  gap: 73px;
+  grid-template-columns: 1fr;
+}
+
+.form-container, .contact-info {
+  background: var(--color-background-primary);
+
+  min-height: 550px;
+}
+
+.contact-info {
+  padding: 40px;
+  background: var(--gradient-primary);
+  color: var(--color-text-light);
+}
+
+form {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.form-title, .contact-title {
+  font-size: var(--font-subtitle2-size);
+  font-weight: var(--font-subtitle2-weight);
+  font-family: var(--font-subtitle2-family);
+  line-height: var(--font-subtitle2-line-height);
+}
+
+.form-title {
+  color: var(--color-text-title-primary);
+}
+.contact-title{
+  color: var(--color-text-light);
+    margin-bottom: 20px;
+}
+
+.form-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-title-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-title-icon svg {
+    width: 48px;
+  height: 48px;
+  color: var(--color-text-title-primary);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+
+.form-row .form-group {
+  flex: 1;
+  min-height: 75px;
+}
+
+.form-label {
+  font-family: var(--font-button-family);
+  font-size: var(--font-button-size);
+  font-weight: var(--font-button-weight);
+  line-height: var(--font-button-line-height);
+  color: var(--color-text-dark);
+}
+
+.form-input, .form-select, .form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid var(--color-border);
+  border-radius: var(--button-border-radius);
+  font-family: var(--font-body2-family);
+  font-size: var(--font-body2-size);
+  font-weight: var(--font-body2-weight);
+  line-height: var(--font-body2-line-height);
+  color: var(--color-text-dark);
+}
+
+.form-radio-group {
+  display: flex;
+  gap: 16px;
+}
+
+.form-radio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.form-checkbox input {
+  margin-right: 8px;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+@media (min-width: 1140px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+

@@ -12,7 +12,7 @@
     --color-hover-button-primary: #ff6a4d;
     --color-hover-button-secondary: #3b3b54;
     --color-hover-overlay: #51507095; /* Overlay ao passar o mouse */
-    --color-shadow: #0835780D;
+    --color-shadow: #001D6924;
     
     /* Gradientes */
     --gradient-primary: linear-gradient(90deg, #515070, #6B69B0); 
@@ -136,6 +136,7 @@
 
 .cta-button-secondary {
     background-color: var(--color-secondary);
+    box-shadow: 0px 4px 6px var(--color-shadow);
 
 }
 
