@@ -1,0 +1,83 @@
+:root {
+    /* Cores principais */
+    --color-primary: #ff8e6e; /* Principal, usada em botões e títulos */
+    --color-secondary: #515070; /* Secundária, usada em botões e títulos */
+    --color-background-primary: #ffffff; /* Usado em header, footer e cards */
+    --color-background-secondary: #f6f6f6; /* Usado em seções gerais */
+    --color-text-dark: #898989; /* Texto principal em fundos claros */
+    --color-text-light: #ffffff; /* Texto em fundos escuros ou imagens */
+    --color-text-title-primary: #ff8e6e; /* Cor dos títulos principais, destaque */
+    --color-text-title-secondary: #515070; /* Cor dos títulos secundários, neutro */
+    --color-border: #d7d7d7; /* Cor de bordas */
+    --color-hover-overlay: #51507070; /* Overlay ao passar o mouse */
+    --color-shadow: #0835780D;
+    
+    /* Gradientes */
+    --gradient-primary: linear-gradient(90deg, #515070, #6B69B0); 
+
+    /* Botões */
+    --button-border-radius: 4px;
+
+    /* Tipografia */
+    --font-size-base: 14px;
+    --font-family-primary: 'Montserrat', sans-serif;
+    --font-family-secondary: 'Open Sans', sans-serif;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    /* Navbar, Header e Footer */
+    --font-navbar-family: 'Montserrat', sans-serif; /* Fonte para navbar, header e footer */
+    --font-navbar-weight: 400; /* Peso da fonte */
+    --font-navbar-size: 14px; /* Tamanho da fonte */
+    --font-navbar-line-height: 17px; /* Altura da linha */
+
+    /* Título Principal */
+    --font-title-family: 'Montserrat', sans-serif; /* Fonte para títulos principais */
+    --font-title-weight: 700; /* Peso da fonte */
+    --font-title-size: 48px; /* Tamanho da fonte */
+    --font-title-line-height: 58.5px; /* Altura da linha */
+
+    /* Subtítulo */
+    --font-subtitle-family: 'Open Sans', sans-serif; /* Fonte para subtítulos */
+    --font-subtitle-weight: 400; /* Peso da fonte */
+    --font-subtitle-size: 18px; /* Tamanho da fonte */
+    --font-subtitle-line-height: 24.5px; /* Altura da linha */
+
+    /* Texto de Botões */
+    --font-button-family: 'Montserrat', sans-serif; /* Fonte para botões */
+    --font-button-weight: 700; /* Peso da fonte */
+    --font-button-size: 14px; /* Tamanho da fonte */
+    --font-button-line-height: 17px; /* Altura da linha */
+    --font-button-transform: uppercase; /* Transformação do texto */
+
+    /* Corpo do Texto */
+    --font-body-family: 'Open Sans', sans-serif; /* Fonte para corpo de texto */
+    --font-body-weight: 400; /* Peso da fonte */
+    --font-body-size: 14px; /* Tamanho da fonte */
+    --font-body-line-height: 29px; /* Altura da linha */
+
+    /* Subtítulo Secundário */
+    --font-subtitle2-family: 'Montserrat', sans-serif; /* Fonte para subtítulos secundários */
+    --font-subtitle2-weight: 700; /* Peso da fonte */
+    --font-subtitle2-size: 18px; /* Tamanho da fonte */
+    --font-subtitle2-line-height: 22px; /* Altura da linha */
+
+    /* Corpo do Texto Secundário */
+    --font-body2-family: 'Open Sans', sans-serif; /* Fonte para corpo de texto secundário */
+    --font-body2-weight: 400; /* Peso da fonte */
+    --font-body2-size: 14px; /* Tamanho da fonte */
+    --font-body2-line-height: 22px; /* Altura da linha */
+
+    /* Texto Pequeno */
+    --font-small-family: 'Montserrat', sans-serif; /* Fonte para textos pequenos */
+    --font-small-weight: 400; /* Peso da fonte */
+    --font-small-size: 12px; /* Tamanho da fonte */
+    --font-small-line-height: 14.5px; /* Altura da linha */
+
+    /* Rótulos */
+    --font-label-family: 'Montserrat', sans-serif; /* Fonte para rótulos */
+    --font-label-weight: 700; /* Peso da fonte */
+    --font-label-size: 14px; /* Tamanho da fonte */
+    --font-label-line-height: 17px; /* Altura da linha */
+}
+
