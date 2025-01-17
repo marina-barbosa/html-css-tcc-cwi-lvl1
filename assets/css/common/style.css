@@ -9,6 +9,7 @@
     --color-text-title-primary: #ff8e6e; /* Cor dos títulos principais, destaque */
     --color-text-title-secondary: #515070; /* Cor dos títulos secundários, neutro */
     --color-border: #d7d7d7; /* Cor de bordas */
+    --color-hover-button-primary: #ff6a4d;
     --color-hover-overlay: #51507070; /* Overlay ao passar o mouse */
     --color-shadow: #0835780D;
     
@@ -36,6 +37,9 @@
     --font-title-weight: 700; /* Peso da fonte */
     --font-title-size: 48px; /* Tamanho da fonte */
     --font-title-line-height: 58.5px; /* Altura da linha */
+
+    --font-title-size-mobile: 38px; /* Tamanho da fonteno mobile */
+    --font-title-line-height-mobile: 46px; /* Altura da linha */
 
     /* Subtítulo */
     --font-subtitle-family: 'Open Sans', sans-serif; /* Fonte para subtítulos */
@@ -81,3 +85,47 @@
     --font-label-line-height: 17px; /* Altura da linha */
 }
 
+
+/* Estilizar a barra de rolagem para navegadores com suporte a Webkit */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color-background-secondary);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary);
+    border-radius: 6px;
+    border: 3px solid var(--color-background-secondary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-secondary);
+}
+
+/* BUTTON */
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.875rem 2rem;
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    text-decoration: none;
+    border-radius: var(--button-border-radius);
+    font-family: var(--font-button-family);
+    font-size: var(--font-button-size);
+    font-weight: var(--font-button-weight);
+    line-height: var(--font-button-line-height);
+    text-transform: var(--font-button-transform);
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: var(--color-hover-button-primary);
+}
