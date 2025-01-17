@@ -1,0 +1,29 @@
+.features {
+    background: var(--gradient-primary);
+    min-height: 670px;
+}
+
+.features .container {
+    
+}
+
+.features .title {
+    color: var(--color-text-title-primary);
+    text-align: center;
+    padding-block: 60px;
+}
+
+.features-content {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.features-item {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    color: var(--color-text-light);
+    max-width: 330px;
+    margin-bottom: 40px;
+}
