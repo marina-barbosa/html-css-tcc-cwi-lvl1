@@ -1,0 +1,4 @@
+.contact .banner {
+    background: linear-gradient(var(--color-hover-overlay), var(--color-hover-overlay)),
+                url('../../img/banner4.png') no-repeat center center / cover;
+}

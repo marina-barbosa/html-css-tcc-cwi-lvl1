@@ -33,17 +33,21 @@
     margin: 0 auto;
 }
 
-.about .cta-image {
+.cta-about .cta-image {
     order: 1;
     margin-bottom: 60px;
 }
 
-.about .cta-content {
+.cta-about .cta-content {
     order: -1;
 }
 
+.cta-about .btn {
+    max-width: 170px;
+}
+
 @media (min-width: 1060px) {
-    .contact .cta-image {
+    .cta-contact .cta-image {
         margin: 0;
     }
 }
@@ -59,12 +63,12 @@
         flex-direction: column;
     }
 
-    .about .cta-image {
+    .cta-about .cta-image {
         order: -1;
         margin-bottom: 60px;
     }
 
-    .about .cta-content {
+    .cta-about .cta-content {
         order: 1;
     }
 }
