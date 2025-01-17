@@ -1,0 +1,56 @@
+.footer {
+  width: 100%;
+  background: var(--color-background-primary);
+  padding-block: 2rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.footer-top, .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-top {
+    margin-bottom: 40px;
+}
+
+.logo-img {
+  width: 90px;
+}
+
+.cwi-logo {
+  width: 82px;
+}
+
+.footer-copyright {
+    font-family: var(--font-navbar-family);
+    font-size: var(--font-navbar-size);
+    font-weight: var(--font-navbar-weight);
+    line-height: var(--font-navbar-line-height);
+    color: var(--color-text-dark);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1rem;
+  }
+
+  .logo-img {
+  align-items: center;
+}
+
+  .footer-top {
+        margin-bottom: 0px;
+    }
+    .cwi-logo {
+    display: none;
+    }
+    .footer-copyright span {
+        display: none;
+    }
+
+}
