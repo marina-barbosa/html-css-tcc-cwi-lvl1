@@ -10,6 +10,7 @@
     --color-text-title-secondary: #515070; /* Cor dos títulos secundários, neutro */
     --color-border: #d7d7d7; /* Cor de bordas */
     --color-hover-button-primary: #ff6a4d;
+    --color-hover-button-secondary: #3b3b54;
     --color-hover-overlay: #51507070; /* Overlay ao passar o mouse */
     --color-shadow: #0835780D;
     
@@ -86,6 +87,76 @@
 }
 
 
+.title {
+    font-family: var(--font-title-family);
+    font-size: var(--font-title-size);
+    font-weight: var(--font-title-weight);
+    line-height: var(--font-title-line-height); 
+}
+
+
+.subtitle {
+    font-family: var(--font-subtitle-family);
+    font-size: var(--font-subtitle-size);
+    font-weight: var(--font-subtitle-weight);
+    line-height: var(--font-subtitle-line-height);
+}
+
+.text {
+    font-family: var(--font-body-family);
+    font-size: var(--font-body-size);
+    font-weight: var(--font-body-weight);
+    line-height: var(--font-body-line-height);
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    max-width: 200px;
+    gap: 0.5rem;
+    padding: 0.875rem 2rem;
+    color: var(--color-text-light);
+    text-decoration: none;
+    border-radius: var(--button-border-radius);
+    font-family: var(--font-button-family);
+    font-size: var(--font-button-size);
+    font-weight: var(--font-button-weight);
+    line-height: var(--font-button-line-height);
+    text-transform: var(--font-button-transform);
+    transition: background-color 0.3s;
+}
+
+.cta-button-primary {
+    background-color: var(--color-primary);
+}
+
+.cta-button-primary:hover {
+    background-color: var(--color-hover-button-primary);
+}
+
+.cta-button-secondary {
+    background-color: var(--color-secondary);
+
+}
+
+.cta-button-secondary:hover {
+    background-color: var(--color-hover-button-secondary);
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding-inline: 73px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-inline: 25px;
+    }
+}
+
+
 /* Estilizar a barra de rolagem para navegadores com suporte a Webkit */
 ::-webkit-scrollbar {
     width: 12px;
@@ -107,25 +178,4 @@
     background-color: var(--color-secondary);
 }
 
-/* BUTTON */
 
-.cta-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.875rem 2rem;
-    background-color: var(--color-primary);
-    color: var(--color-text-light);
-    text-decoration: none;
-    border-radius: var(--button-border-radius);
-    font-family: var(--font-button-family);
-    font-size: var(--font-button-size);
-    font-weight: var(--font-button-weight);
-    line-height: var(--font-button-line-height);
-    text-transform: var(--font-button-transform);
-    transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-    background-color: var(--color-hover-button-primary);
-}

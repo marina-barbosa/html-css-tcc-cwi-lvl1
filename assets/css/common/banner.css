@@ -1,0 +1,53 @@
+/* HERO - BANNER 1 */
+
+.banner {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    color: var(--color-text-light);
+}
+
+.banner .title {
+    margin-bottom: 1rem;
+}
+
+.banner .text, .hero .subtitle {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+
+    .banner .title {
+        font-size: var(--font-title-size-mobile);
+        line-height: var(--font-title-line-height-mobile);
+    }
+}
+
+/* HERO HOME */
+
+.hero {
+    background: linear-gradient(var(--color-hover-overlay), var(--color-hover-overlay)),
+                url('../../img/banner1.jpg');
+}
+
+.hero-content {
+    z-index: 2;
+}
+
+/* BANNER 2 */
+
+.service {
+    background: linear-gradient(var(--color-hover-overlay), var(--color-hover-overlay)),
+                url('../../img/banner2.jpg');
+}
+
+.service-content {
+    max-width: 500px;
+    z-index: 2;
+}
+
+
