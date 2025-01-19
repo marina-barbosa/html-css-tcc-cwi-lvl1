@@ -64,6 +64,10 @@
         flex-direction: column;
     }
 
+    .cta-content {
+        margin: 0 auto;
+    }
+
     .cta-about .cta-image {
         order: -1;
         margin-bottom: 60px;
@@ -71,5 +75,8 @@
 
     .cta-about .cta-content {
         order: 1;
+    }
+    .cta-contact .cta-content {
+        margin-top: 60px;
     }
 }
